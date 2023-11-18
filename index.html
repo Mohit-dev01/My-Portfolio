@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MY PORTFOLIO</title>
+    <link href="style.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/188a51c9a9.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="/images/mohit_sign-removebg-preview.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Interest</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <div class="con1">
+          <p>Hi, I'm <span>Mohit</span></p>
+
+          <h1>
+           std::cout<<"Web Developer" ;
+            
+          </h1>
+          <h1>console.log("Interest in Entrepreneurship");</h1>
+        </div>
+        
+        <div class="headerimage">
+            <img src="images/lee-campbell-DtDlVpy-vvQ-unsplash.jpg"  alt="" srcset="">
+        </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img
+              src="images/andras-vas-Bd7gNnWJBkU-unsplash.jpg"
+              width="500px"
+              height="500px"
+              ;
+            />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <br />
+            <p>
+              I am diligent, energetic & evermore eager to learn. Being a
+              competent presenter enhances my persona. Persist in exploring
+              things, engaging with techm& prying
+              in designing to keep my routine ahead.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>HTML,CSS & JAVASCRIPT </li>
+                <li>
+                  GITHUB      
+                          </li>
+                <li>
+                  
+                  SQL
+                </li>
+                <li>C++</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2020-Present </span> <br />B.Tech at DCRUST with 7.89
+                  CGPA so far
+                </li>
+                <li>
+                  <span>2018 </span> <br />
+                  12th with 83.2%
+                </li>
+                <li>
+                  <span>2016 </span> <br />
+                  10th with 91.2%
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span> Internship</span> <br />Intern at BXGC Private Limited as an IoT Intern
+                  from April 2023 - June 2023
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- services -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Interest</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Problem Solving and Programming</h2>
+            <p>
+              Solved different question on different platforms which include
+              Leetcode & GFG.
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-robot"></i>
+            <h2>Designing</h2>
+            <p>Design various posters & prototypes using figma & canvas</p>
+          </div>
+          <div>
+            <i class="fa-sharp fa-solid fa-code-branch"></i>
+            <h2>Content Creation</h2>
+            <p>
+             Worked with youtubers helped them in creating engaging content strategies
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- portfolio -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="/images/text editor.png" height="100%" />
+            <div class="layer">
+              <h2>Text Editor</h2>
+              <br />
+              <p>
+                Editor just like our Notepad
+              </p>
+              <a
+                href="https://mohit-dev01.github.io/Text-Editor/" target="_blank"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="/images/text to speech.jfif"/>
+            <div class="layer">
+              <h2>Text to Speech </h2>
+              <br />
+              <p>
+                Converts the text in speech in different tones
+              </p>
+              <a href="https://mohit-dev01.github.io/Text-to-Speech/" target="_blank"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="/images/tic tac toe.jpg" />
+            <div class="layer">
+              <h2>Tic Tac Toe</h2>
+              <p>Our fun time game </p>
+              <a href="https://mohit-dev01.github.io/Tic-Tac-Toe/" target="_blank"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- contact -->
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i>mohitwadhwa7788@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone"></i>9660049057</p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/mohit0100/" target="blank"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="https://github.com/Mohit-dev01" target="blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+
+            <a href="https://drive.google.com/file/d/1OCkyQT2mQapEkNXh6sQXQLnR-xTyj_Rn/view?usp=sharing" target="blank" class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="YourMeassage"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Thankyou for the visit</p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycby9yrulMRcc337zzpL5zoDxyEHP8ZU6lBvCH-vpVvXCtnEMcr1-KsAFRhbRgmk143Vo/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
